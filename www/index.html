@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+  <title>MOOV</title>
+  <link rel="stylesheet" href="css/onsenui.css" />
+  <link rel="stylesheet" href="css/onsen-css-components.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+  <script src="js/onsenui.min.js"></script>
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <style>
+    .myimages {
+      margin: 20px;
+    }
+
+    img {
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <ons-splitter>
+    <ons-splitter-side id="menu" side="left" width="220px" page="menu.html" collapse swipeable>
+    </ons-splitter-side>
+
+    <ons-splitter-content id="content" page="navicontainer.html"></ons-splitter-content>
+  </ons-splitter>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

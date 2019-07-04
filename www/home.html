@@ -1,0 +1,35 @@
+<ons-page id="home.html">
+  <ons-toolbar style="background-color: black;">
+    <div class="center" style=" color: white;
+    text-align: center; font-family: 'Alegreya Sans SC', Verdana, Geneva, Tahoma, sans-serif;">
+      HOME</div>
+    <div class="right">
+      <ons-toolbar-button onclick="fn.open()">
+        <ons-icon icon="md-menu" style="color: white"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+
+  <ons-card onclick="fn.load('moviesearch.html', 'Movie Search')">
+    <img src="images/movie.jpg" alt="Onsen UI" style="width: 100%" />
+    <div class="title">
+      Movie Search
+    </div>
+    <div class="content">
+      Search for Movie Information
+    </div>
+  </ons-card>
+
+  <ons-card onclick="fn.load('about.html', 'About Page')">
+    <img src="images/team.jpg" alt="Onsen UI" style="width: 100%" />
+    <div class="title">
+      About Us
+    </div>
+    <div class="content">
+      Meet our team
+    </div>
+  </ons-card>
+
+</ons-page>
+
+<!-- Icons: md = material design, fa = font awesome, -->

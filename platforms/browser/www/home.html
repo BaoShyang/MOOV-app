@@ -1,0 +1,53 @@
+<ons-page id="home.html">
+  <ons-toolbar>
+    <div class="center" style="text-align: center">Home Page</div>
+    <div class="right">
+      <ons-toolbar-button onclick="fn.open()">
+        <ons-icon icon="md-menu"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+
+  <ons-card onclick="fn.load('pokemon.html', 'Pokemon Search')">
+    <img src="images/pokemonmenu.jpg" alt="Onsen UI" style="width: 100%" />
+    <div class="title">
+      Pokemon Search
+    </div>
+    <div class="content">
+      Look for a Pokemon by name
+    </div>
+  </ons-card>
+
+  <ons-card onclick="fn.load('tabbardemo.html', 'Tabbar Demo')">
+    <img src="images/tabbar.png" alt="Onsen UI" style="width: 100%" />
+    <div class="title">
+      Tabbar
+    </div>
+    <div class="content">
+      Demonstrate simple list, expandable list and chevron list.
+    </div>
+  </ons-card>
+
+  <ons-card onclick="fn.load('iconlist.html', 'Iconlist Demo')">
+    <img src="images/iconlist.jpg" alt="Onsen UI" style="width: 100%" />
+    <div class="title">
+      Iconlist
+    </div>
+    <div class="content">
+      Demonstrate icon list which includes a circular icons on the right of each
+      list item.
+    </div>
+  </ons-card>
+
+  <ons-card onclick="fn.load('about.html')">
+    <img src="images/about.jpg" alt="Onsen UI" style="width: 100%" />
+    <div class="title">
+      About
+    </div>
+    <div class="content">
+      Description about me and my work.
+    </div>
+  </ons-card>
+</ons-page>
+
+<!-- Icons: md = material design, fa = font awesome, -->

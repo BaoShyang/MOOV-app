@@ -1,0 +1,33 @@
+<ons-page>
+  <ons-toolbar style="background-color: black;">
+    <div class="left">
+      <div class="left">
+        <ons-back-button style=" color: white;
+        font-family: 'Alegreya Sans SC', Verdana, Geneva, Tahoma, sans-serif;">BACK
+        </ons-back-button>
+      </div>
+    </div>
+    <div class="center" style=" color: white;
+    text-align: center; font-family: 'Alegreya Sans SC', Verdana, Geneva, Tahoma, sans-serif;">MOVIE SEARCH</div>
+    <div class="right">
+      <ons-toolbar-button onclick="fn.open()">
+        <ons-icon icon="md-menu" style="color: white"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+  <div style="text-align: center; margin-top:20px">
+    <p>Enter Movie name and click Search</p>
+    <p>
+      <ons-input id="moviename" modifier="underbar" placeholder="Enter name" float></ons-input>
+    </p>
+    <p>
+      <ons-button onclick="searchMovie()" style="color: white; background-color: black;">Search</ons-button>
+    </p>
+    <p>
+      <ons-button onclick="clearInput()" style="color: white; background-color: black;">Clear</ons-button>
+    </p>
+  </div>
+  <div style="text-align:center; margin-top:30%; visibility: hidden;">
+    <ons-progress-circular indeterminate class="progress-circular"></ons-progress-circular>
+  </div>
+</ons-page>
