@@ -1,15 +1,3 @@
-# A Blank PhoneGap App
+MOOV-App
 
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
-"# onsen-Movieapp" 
+An movie searching app using OMDB api for HCUC assignment purpose. 
